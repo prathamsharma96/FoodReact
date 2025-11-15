@@ -1,0 +1,32 @@
+{
+  "name": "namasteract",
+  "version": "1.0.0",
+  "description": "my first project",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prathamsharma96/namasteract.git"
+  },
+  "keywords": [
+    "react",
+    "hello"
+  ],
+  "author": "Pratham sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prathamsharma96/namasteract/issues"
+  },
+  "homepage": "https://github.com/prathamsharma96/namasteract#readme",
+  "devDependencies": {
+    "parcel": "^2.16.1"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "browserlist": [
+    "last 2 Chrome version"
+  ]
+}
