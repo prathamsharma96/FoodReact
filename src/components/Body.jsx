@@ -14,9 +14,7 @@ const Body = () => {
 
   const fetchData = async () => {
     try {
-      const data = await fetch(
-        "http://localhost:5000/api/swiggy?lat=28.469189&lng=77.1313681"
-      );
+      const data = await fetch("/api/swiggy?lat=28.469189&lng=77.1313681"  );
 
       const json = await data.json();
       const cards = json?.data?.cards || [];
