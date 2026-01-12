@@ -1,6 +1,6 @@
 import RestaurantCard from "./RestaurantCard.jsx";
 import { useState, useEffect } from "react";
-import Shimmer from "./Shimmer.js";
+import Shimmer from "./Shimmer.jsx";
 import { Link } from "react-router-dom";
 
 const Body = () => {
